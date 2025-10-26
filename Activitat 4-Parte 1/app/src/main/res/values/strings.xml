@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Act4_part1</string>
+    <string name="welcome_message">Holaa, %1$s:) Endevina un número del 1 al 3.</string>
+    <string name="btn_back">Tornar enrere</string>
+</resources>

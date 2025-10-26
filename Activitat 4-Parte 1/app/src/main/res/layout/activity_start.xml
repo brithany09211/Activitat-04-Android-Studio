@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2D8E3">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:textSize="20sp"
+        android:textColor="@color/pink"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="1"
+        android:backgroundTint="@color/pink"
+        android:textColor="#FFFFFF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:text="2"
+        android:backgroundTint="@color/pink"
+        android:textColor="#FFFFFF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:text="3"
+        android:backgroundTint="@color/pink"
+        android:textColor="#FFFFFF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text="@string/btn_back"
+        android:backgroundTint="@color/dark_pink"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
