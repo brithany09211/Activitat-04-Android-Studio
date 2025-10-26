@@ -10,7 +10,7 @@ class ErrorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_error)
 
-        val username = intent.getStringExtra("nom")  // 👈 Igual aquí
+        val username = intent.getStringExtra("nom")
         val chosen = intent.getIntExtra("CHOSEN", -1)
         val correct = intent.getIntExtra("CORRECT", -1)
 

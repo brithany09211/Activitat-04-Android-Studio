@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         val dataActual = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(Date())
         textDate.text = "La data actual és: $dataActual"
 
-        // 👇 Este bloque ahora se ejecuta SOLO al hacer clic en el botón
         botoInicial.setOnClickListener {
             val nomUsuari = editName.text.toString().trim()
 
